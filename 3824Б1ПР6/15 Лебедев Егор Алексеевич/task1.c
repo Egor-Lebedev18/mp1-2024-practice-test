@@ -24,9 +24,7 @@ if (N == 0) return -1;
         }
     }
 
-  
     if (first_min_index >= N || last_max_index >= N) return -1;
-
    
     if (first_min_index < last_max_index) {
         return last_max_index - first_min_index - 1;
